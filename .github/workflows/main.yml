@@ -8,6 +8,7 @@ on:
     # Ideally I would put this in the pypi job... but github syntax doesn't allow for regexes there :shrug:
     # P.S. fuck made up yaml DSLs.
     # TODO cron?
+  pull_request:
   workflow_dispatch: # needed to trigger workflows manually
 
 env:
