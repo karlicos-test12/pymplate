@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_namespace_packages # type: ignore
 
-
+#
 def main():
     # works with both ordinary and namespace packages
     pkgs = find_namespace_packages('src')
